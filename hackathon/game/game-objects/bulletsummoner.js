@@ -1,0 +1,3 @@
+class BulletSummoner extends GameObject {
+    
+}

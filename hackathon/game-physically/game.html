@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div id="mainmenu">
+        <div id="keyboard">
+            <div class="settings" id="player1">
+                <div class="words">keyup1: <input type="text" name="" id="keyup1" class="controller"></div>
+                <div class="words">keydown1: <input type="text" name="" id="keydown1" class="controller"></div>
+                <div class="words">keyleft1: <input type="text" name="" id="keyleft1" class="controller"></div>
+                <div class="words">keyright1: <input type="text" name="" id="keyright1" class="controller"></div>
+                <div class="words">fire1: <input type="text" name="" id="fire1" class="controller"></div>
+                <div class="words">dash1: <input type="text" name="" id="dash1" class="controller"></div>
+            </div>
+            <div class="settings" id="player2">
+                <div class="words">keyup2: <input type="text" name="" id="keyup2" class="controller"></div>
+                <div class="words">keydown2: <input type="text" name="" id="keydown2" class="controller"></div>
+                <div class="words">keyleft2: <input type="text" name="" id="keyleft2" class="controller"></div>
+                <div class="words">keyright2: <input type="text" name="" id="keyright2" class="controller"></div>
+                <div class="words">fire2: <input type="text" name="" id="fire2" class="controller"></div>
+                <div class="words">dash2: <input type="text" name="" id="dash2" class="controller"></div>
+            </div>
+        </div>
+        <div class="words">choose your player</div>
+        <div id="agent">
+            <div id="imageone" class="picks"><img src="images/1.jpg" alt="" class="agents"></div>
+            <div id="imagetwo" class="picks"><img src="images/2.png" alt="" class="agents"></div>
+            <div id="imagethree" class="picks"><img src="images/3.png" alt="" class="agents"></div>
+        </div>
+        <button id="start">START</button>
+        <button id="changePlayer">1P</button>
+        <div></div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="settings/settings.js"></script>
+</body>
+
+</html>

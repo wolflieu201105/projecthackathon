@@ -35,4 +35,22 @@ class Vector2D {
     getAngle() {
         return Math.atan(this.y / this.x)
     }
+    setAngle(deg) {
+        const newAngle = degToRad(deg);
+        const length = this.getAngle();
+        const newX = Math.sqrt(length ** 2 / Math.tan(newAngle) ** 2)
+        const newY = Math.sqrt(length ** 2 - newX ** 2);
+        this.x = newX;
+        this.y = newY;
+        return this;
+    }
+    symetryX() {
+        this.y = -this.y;
+        return this;
+    }
+    symetryY() {
+        this.x = -this.x;
+        return this;
+    }
+
 }

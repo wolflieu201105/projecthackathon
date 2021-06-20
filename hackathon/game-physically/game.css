@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#mainmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+canvas{
+    display: none;
+}
+.controller{
+    font-size: 3vh;
+    width: 3vh;
+    height: 3vh;
+    text-align: center;
+}
+.words{
+    font-size: 3vh;
+}
+.picks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vh;
+    height: 25vh;
+}
+.agents{
+    width: 20vh;
+    height: 20vh;
+}
+#agent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.settings{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 20vw;
+    height: 20vh;
+    font-size: 100%;
+}
+#keyboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#player2{
+    display: block;
+}

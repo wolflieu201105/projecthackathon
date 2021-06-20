@@ -1,8 +1,10 @@
 const classesMap = {
-    Player,
+    Player1,
+    Player2,
     Enemy,
+    // Points,
+    PlayerBullet,
     EnemySummoner,
-    BulletSummoner
 }
 class DynamicClass {
     constructor(className, parameters = []) {
